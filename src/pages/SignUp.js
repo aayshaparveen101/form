@@ -9,7 +9,7 @@ function SignUp () {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh",
+        //   height: "100vh",
         }}
       >
         <div className="Box" style={{ width: "35%" }}>
