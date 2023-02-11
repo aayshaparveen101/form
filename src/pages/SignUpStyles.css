@@ -1,3 +1,28 @@
-.App{
-    background-color: aqua;
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  /* display: flex; */
+  /* background-color: aqua; */
+  text-align: center;
+  /* width: 35%; */
+  padding: 4%;
+}
+button {
+  background: #28dd28;
+  padding: 6px 95px;
+  /* margin: 10px; */
+  text-align: center;
+  border-radius: 0px 12px;
+  font-size: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 2px solid #28dd28 ;
+}
+form{
+    display: flex;
+flex-direction: column;
 }

@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import InputBox from "./InputBox.css"
 
 const Inputbox = (props) => {
-
-  console.log("placeholder", props.placeholder);
-  console.log("type", props.type);
-
-
+  // console.log("Name", props.value);
+  // console.log("placeholder", props.placeholder);
+  // console.log("changehandler", props.onChange);
   return (
     <input
       type={props.type}
       placeholder={props.placeholder}
       className="inputField"
+      value={props.value}
+      onChange={props.onChange}
       // style={{
       //   width: "90%",
       //   border: "2px solid white",
